@@ -25,8 +25,8 @@ export default function Quote() {
       >
         <div className="rounded-2xl md:p-12">
           <blockquote className="text-2xl md:text-3xl font-light leading-relaxed text-black mb-6 ">
-            "I have come to believe that caring for myself is not self‑indulgent. Caring for myself is an act of
-            survival."
+            I have come to believe that caring for myself is not self‑indulgent. Caring for myself is an act of
+            survival.
           </blockquote>
           <cite className="block text-lg font-light text-[#41413f]">—Audre Lorde</cite>
         </div>

@@ -108,7 +108,7 @@ export default function Contact() {
         setSubmitMessage("There was an error sending your message. Please try again.")
       }
     } catch (error) {
-      setSubmitMessage("There was an error sending your message. Please try again.")
+      setSubmitMessage("There was an error sending your message. Please try again. "+ {error})
     } finally {
       setIsSubmitting(false)
     }
